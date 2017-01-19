@@ -18,7 +18,15 @@ main nav ul li, footer ul li {
     list-style-type: none;
 }
 
-footer { }
+#intro-header {
+    display: flex; 
+}
+
+#portrait {
+    padding-right: 2.2rem;
+    height: 8rem;
+}
+footer { line-height: 3.6rem; }
 
 /* Blog */
 ul.posts { }
