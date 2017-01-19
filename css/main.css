@@ -19,13 +19,6 @@ ul.posts { }
 ul.posts li { list-style: none; }
 
 /* CV */
-.cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { color: #0087F7;
-    -webkit-font-smoothing: antialiased;
-    line-height: 2.2rem; }
-.cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 /** Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) http://cssreset.com */
@@ -313,8 +306,7 @@ main > nav a.current { background: #4DADF7; }
 main > nav .level-0 > a { font-weight: 400; }
 main > nav .level-1 > a { padding-left: 1.9rem; color: rgba(255, 255, 255, 0.7); }
 
-@media (min-width: 940px) { 
-  main > nav { display: block; } }
+@media (min-width: 940px) { }
 form.donate { display: inline-block; vertical-align: bottom; position: relative; top: 0.25em; margin: 0 0em 0 0.2em; }
 
 main { position: relative; z-index: 100; }
