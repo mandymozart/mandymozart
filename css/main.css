@@ -299,6 +299,11 @@ ul li:last-of-type { border: none; }
 
 .bitcoin { overflow: auto; }
 
+.skills {
+    flex-wrap: wrap;
+    display: flex;
+}
+
 .code,.skill {
     font-family: Inconsolata, monospace;
     background: rgba(0, 135, 247, 0.04);
