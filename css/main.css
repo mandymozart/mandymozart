@@ -245,7 +245,7 @@ table th { font-size: 1.4rem; color: #646C7F; }
 
 ul, ol { list-style-position: inside; }
 
-a { color: #0087F7; text-decoration: none; }
+a { color: #0087F7; text-decoration: none; cursor: pointer;}
 a:hover { border-bottom: 2px solid #0087F7; }
 
 p { margin: 1.4rem 0; }
