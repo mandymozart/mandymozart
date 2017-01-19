@@ -24,6 +24,7 @@ main nav ul li, footer ul li {
 
 #portrait {
     padding-right: 1.4rem;
+    margin-top: 2.8rem;
 }
 footer { padding: 1.4rem 1.4rem 1.4rem 1.4rem; }
 
@@ -283,6 +284,13 @@ ul li:last-of-type { border: none; }
 .highlight { padding: 1.4rem; overflow: auto; background: rgba(100, 108, 128, 0.04); margin-top: 2.8rem; margin-bottom: 2.8rem; }
 
 .bitcoin { overflow: auto; }
+
+.code,.skill {
+    font-family: Inconsolata, monospace;
+    background: rgba(0, 135, 247, 0.04);
+    padding: 0.2em 0.4em;
+}
+
 
 blockquote { color: #0087F7; font-size: 1.2rem; line-height: 2rem; -webkit-font-smoothing: antialiased; margin-top: 2.8rem; margin-bottom: 2.8rem; }
 blockquote a { border-bottom: 1px solid #0087F7; }
