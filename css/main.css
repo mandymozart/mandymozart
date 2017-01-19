@@ -301,7 +301,7 @@ ul li:last-of-type { border: none; }
 
 .bitcoin { overflow: auto; }
 
-.skills .techstack {
+.skills, .techstack {
     flex-wrap: wrap;
     display: flex;
 }
