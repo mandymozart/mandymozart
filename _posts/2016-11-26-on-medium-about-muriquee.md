@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Article Medium about building Muriquee (Angular2TS, Google Maps, 3d.js)"
+title: "My experience building Muriquee (Angular2TS, Google Maps, 3d.js)"
 date: 2016-11-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "New Article Medium about building Muriquee (Angular2TS, Google Maps, 3d.js)"
-date: 2016-11-26
+title: "EDMT wins App Art Award"
+date: 2015-07-28
 ---
 
-Wrote an article on Medium about my experience on building [Muriquee](http://beta.muriquee.com/) [Read More](https://medium.com/@shalomsalon/public-beta-invitation-review-tour-booking-on-a-map-by-muriquee-e290a587863b)
+Glad to announce that we won the ZKM App Art Award for [EDMT](http://www.edmt.tv/). [Read More](https://medium.com/@shalomsalon/edmt-wins-zkm-app-art-award-2015-735ac481a79a#.m4t1dw1vp)
