@@ -1,8 +1,8 @@
 body { margin: 60px auto; }
 
-nav ul, footer ul { color: #0087F7;
+main nav ul, footer ul { color: #0087F7;
     padding: 0px; list-style: none; font-weight: bold; }
-nav ul li, footer ul li { 
+main nav ul li, footer ul li { 
     display: inline;
     margin-right: 1.2em;
     padding: 0;
@@ -294,18 +294,6 @@ body > header .scroll-invitation a span { display: none; }
   body > header h2 { margin-top: 2.8rem; margin-bottom: 2.8rem; }
   body > header .scroll-invitation { margin-top: 5.6rem; } }
 
-main > nav { position: absolute; top: 0; left: 0; bottom: 0; width: 220px; background: #028AF4; padding: 1.4rem 0; z-index: 200; overflow: auto; display: none; }
-main > nav.fixed { position: fixed; }
-main > nav img { margin: 0 0 1.4rem 1.4rem; width: 58px; height: 58px; }
-main > nav a:not(.logo) { display: block; line-height: 1.4rem; color: rgba(255, 255, 255, 0.9); border: none; padding: 0.7rem 1.4rem; font-size: 0.8rem; -webkit-font-smoothing: subpixel-antialiased; }
-main > nav a:not(.logo):hover { background: rgba(255, 255, 255, 0.3); }
-main > nav .sub-sections { height: 0; overflow: hidden; -webkit-transition: height 0.4s ease; -moz-transition: height 0.4s ease; -ms-transition: height 0.4s ease; -o-transition: height 0.4s ease; transition: height 0.4s ease; }
-main > nav .visible { background: rgba(255, 255, 255, 0.13); }
-main > nav .visible .sub-sections { display: block; }
-main > nav a.current { background: #4DADF7; }
-main > nav .level-0 > a { font-weight: 400; }
-main > nav .level-1 > a { padding-left: 1.9rem; color: rgba(255, 255, 255, 0.7); }
-
 @media (min-width: 940px) { }
 form.donate { display: inline-block; vertical-align: bottom; position: relative; top: 0.25em; margin: 0 0em 0 0.2em; }
 
@@ -313,7 +301,7 @@ main { position: relative; z-index: 100; }
 main section { padding: 1.4rem 1.4rem 2.8rem 1.4rem; }
 main section:last-of-type { padding-bottom: 8.4rem; }
 main section h1, main section h2 { margin-top: 0; padding-top: 2.8rem; }
-main section > * { max-width: 720px; margin-left: auto; margin-right: auto; }
+main section > * , main nav > * { max-width: 720px; margin-left: auto; margin-right: auto; }
 main section > *.highlight { max-width: 900px; }
 main section > table { max-width: 80rem; }
 main section .embedded-video { position: relative; width: 100%; }
