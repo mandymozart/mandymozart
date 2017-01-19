@@ -11,7 +11,7 @@ main nav {
 }
 
 main nav ul, footer ul { color: #0087F7;
-    padding: 0px; list-style: none; font-weight: bold; }
+    padding: 0px; list-style: none; }
 main nav ul li, footer ul li { 
     display: inline;
     margin-right: 1.2em;
