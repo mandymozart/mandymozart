@@ -11,6 +11,12 @@ main nav ul li, footer ul li {
     line-height: 2rem;
  }
 
+.contacts ul {
+    list-style: none;
+}
+.contacts ul li {
+    list-style-type: none;
+}
 
 footer { }
 
@@ -325,13 +331,6 @@ main table td.separator { font-weight: normal; text-align: left; color: #646C7F;
   main table td:first-of-type, main table th:first-of-type { text-align: left; border-right: none; }
   main table th.title { padding-top: 1.4rem; padding-bottom: 1.4rem; }
   main table th:not(.title) { display: none; } }
-
-footer { background: #2D3038; z-index: 5000; position: relative; display: block; padding: 1.4rem 1.4rem 2.8rem 1.4rem; font-size: 0.9rem; color: white; }
-footer * { color: white; }
-footer a:hover { border-color: white; }
-footer > * { max-width: 720px; margin-left: auto; margin-right: auto; }
-@media (min-width: 720px) { footer .license { text-align: justify; } }
-footer .logo { margin: 2.8rem 0; width: 270px; }
 
 .for-hire { text-align: center; padding: 1em 2em; background: rgba(255, 255, 255, 0.1); border-radius: 0.3rem; line-height: 1.5em; }
 .for-hire h1 { padding: 0; margin: 1.5rem 0 3rem; }
