@@ -58,7 +58,9 @@ ul.posts li { list-style: none; }
 .role {
     color: #0087f7;
 }
-
+.description {
+    display: block;
+}
 
 /* General */
 
@@ -299,12 +301,12 @@ ul li:last-of-type { border: none; }
 
 .bitcoin { overflow: auto; }
 
-.skills {
+.skills .techstack {
     flex-wrap: wrap;
     display: flex;
 }
 
-.code,.skill {
+.code,.skill, .techstack span {
     font-family: Inconsolata, monospace;
     background: rgba(0, 135, 247, 0.04);
     padding: 0.2em 0.4em;
