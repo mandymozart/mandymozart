@@ -199,7 +199,16 @@ main table td.separator { font-weight: normal; text-align: left; color: #646C7F;
   main table td, main table th { overflow: auto; }
   main table td:first-of-type, main table th:first-of-type { text-align: left; border-right: none; }
   main table th.title { padding-top: 1.4rem; padding-bottom: 1.4rem; }
-  main table th:not(.title) { display: none; } }
+  main table th:not(.title) { display: none; } 
+  #intro-header { display: block; }
+  .cv .download {
+        left: 1.4rem;
+        right: 1.4rem;
+        top: 4rem;
+        text-align: center;  
+    }
+  .avatar {width: 100%;}
+   #portrait {width: 100%;padding-right: 0;} }
 
 .for-hire { text-align: center; padding: 1em 2em; background: rgba(255, 255, 255, 0.1); border-radius: 0.3rem; line-height: 1.5em; }
 .for-hire h1 { padding: 0; margin: 1.5rem 0 3rem; }
