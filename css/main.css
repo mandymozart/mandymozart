@@ -36,6 +36,9 @@ main nav ul li, footer ul li {
     padding-right: 1.4rem;
     margin-top: 2.8rem;
 }
+#intro-photo {
+    width: 100%;
+}
 footer { padding: 1.4rem 1.4rem 1.4rem 1.4rem; }
 
 /* Blog */
