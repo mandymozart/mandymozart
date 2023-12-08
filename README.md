@@ -2,7 +2,7 @@
 Hi 👋, I'm Mandy Mozart
 Web Developer from Germany living in Vienna
 
-🔭 I’m currently working on my YouTube content
+🔭 I’m currently working on solo album
 
 🌱 I’m currently learning WebAR, ThreeJs, SvelteKit.js, ...
 
